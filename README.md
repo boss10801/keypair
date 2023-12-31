@@ -19,8 +19,10 @@ Now you are free to run both Encrypt and Decrypt file
 For the sender you will use public key and Encrypt.py like this
 ```
 python3 encrypt.py [filename]
+exp:python3 encrypt.py data.txt
 ```
 For reciever you will use private key and Decrypt.py like this
 ```
 python3 decrypt.py [filename]
+exp:python3 decrypt.py data.txt
 ```
