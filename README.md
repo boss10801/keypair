@@ -15,6 +15,7 @@ In this case we will export it into our memory
 export PEMK=./priv.pem  
 export PUB_PEMK=./pub.pem  
 ```
+You can also check the key by run read_key.py  
 Now you are free to run both Encrypt and Decrypt file  
 For the sender you will use public key and Encrypt.py like this
 ```
