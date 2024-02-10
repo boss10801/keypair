@@ -4,7 +4,12 @@ Practice one of the Encryption method which is wildly use in modern day website,
 pre requirements: Install Cryptography
 You can also try to set a virtual Enviroment before installation by
 ```
-venv
+sudo apt-get install python3-venv #for linux
+python3 -m venv .venv
+source .venv/bin/activate
+
+#If you feel like you finished the job you can exit the virtual enviroment by
+deactivate
 ```
 First Run gen_key file to create keys one for Private and one for Public  
 ```
