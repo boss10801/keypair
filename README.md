@@ -4,9 +4,19 @@ Practice one of the Encryption method which is wildly use in modern day website,
 pre requirements: Install Cryptography
 You can also try to set a virtual Enviroment before installation by
 ```
-sudo apt-get install python3-venv #for linux
+#For Linux
+sudo apt-get install python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
+
+#If you feel like you finished the job you can exit the virtual enviroment by
+deactivate
+```
+```
+#For Windows
+pip install virtualenv
+python3 -m venv .venv
+.venv\Scripts\activate
 
 #If you feel like you finished the job you can exit the virtual enviroment by
 deactivate
